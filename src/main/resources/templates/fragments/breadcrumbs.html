@@ -20,7 +20,10 @@
                 </a>
             </li>
             <li>
-                <div class="flex items-center">
+                <div
+                        class="flex items-center"
+                        th:if="${label2 != null && label2 != ''}"
+                >
                     <svg class="rtl:rotate-180 block w-3 h-3 mx-1 text-gray-400 " aria-hidden="true"
                          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -35,7 +38,10 @@
                 </div>
             </li>
             <li>
-                <div class="flex items-center">
+                <div
+                        class="flex items-center"
+                        th:if="${label3 != null && label3 != ''}"
+                >
                     <svg class="rtl:rotate-180 block w-3 h-3 mx-1 text-gray-400 " aria-hidden="true"
                          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -50,7 +56,10 @@
                 </div>
             </li>
             <li aria-current="page">
-                <div class="flex items-center">
+                <div
+                        class="flex items-center"
+                        th:if="${label4 != null && label4 != ''}"
+                >
                     <svg class="rtl:rotate-180  w-3 h-3 mx-1 text-gray-400" aria-hidden="true"
                          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
